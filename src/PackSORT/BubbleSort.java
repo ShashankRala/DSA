@@ -1,4 +1,5 @@
-package PackDSA;
+package PackSORT;
+
 public class BubbleSort {
 
 	  void bubbleSort(int arr[]) {
@@ -23,10 +24,8 @@ public class BubbleSort {
 	  }
 	
 
-
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		BubbleSort bs = new BubbleSort();
 		int arr[]= {9,8,7,3,4,1,10};
 		bs.bubbleSort(arr);
@@ -34,3 +33,4 @@ public class BubbleSort {
 	}
 
 }
+
